@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F30D4251C244913004D9939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D4241C244913004D9939 /* AppDelegate.swift */; };
+		8F30D4271C244913004D9939 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D4261C244913004D9939 /* FirstViewController.swift */; };
+		8F30D4291C244913004D9939 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D4281C244913004D9939 /* SecondViewController.swift */; };
+		8F30D42C1C244913004D9939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F30D42A1C244913004D9939 /* Main.storyboard */; };
+		8F30D42E1C244913004D9939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F30D42D1C244913004D9939 /* Assets.xcassets */; };
+		8F30D4311C244913004D9939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F30D42F1C244913004D9939 /* LaunchScreen.storyboard */; };
+		8F30D43C1C244913004D9939 /* KappaQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D43B1C244913004D9939 /* KappaQuestTests.swift */; };
+		8F30D4471C244913004D9939 /* KappaQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D4461C244913004D9939 /* KappaQuestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F30D4381C244913004D9939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F30D4191C244913004D9939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F30D4201C244913004D9939;
+			remoteInfo = KappaQuest;
+		};
+		8F30D4431C244913004D9939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F30D4191C244913004D9939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F30D4201C244913004D9939;
+			remoteInfo = KappaQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F30D4211C244913004D9939 /* KappaQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KappaQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F30D4241C244913004D9939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F30D4261C244913004D9939 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8F30D4281C244913004D9939 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8F30D42B1C244913004D9939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F30D42D1C244913004D9939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F30D4301C244913004D9939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F30D4321C244913004D9939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F30D4371C244913004D9939 /* KappaQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KappaQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F30D43B1C244913004D9939 /* KappaQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KappaQuestTests.swift; sourceTree = "<group>"; };
+		8F30D43D1C244913004D9939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F30D4421C244913004D9939 /* KappaQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KappaQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F30D4461C244913004D9939 /* KappaQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KappaQuestUITests.swift; sourceTree = "<group>"; };
+		8F30D4481C244913004D9939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F30D41E1C244913004D9939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F30D4341C244913004D9939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F30D43F1C244913004D9939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F30D4181C244913004D9939 = {
+			isa = PBXGroup;
+			children = (
+				8F30D4231C244913004D9939 /* KappaQuest */,
+				8F30D43A1C244913004D9939 /* KappaQuestTests */,
+				8F30D4451C244913004D9939 /* KappaQuestUITests */,
+				8F30D4221C244913004D9939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F30D4221C244913004D9939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F30D4211C244913004D9939 /* KappaQuest.app */,
+				8F30D4371C244913004D9939 /* KappaQuestTests.xctest */,
+				8F30D4421C244913004D9939 /* KappaQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F30D4231C244913004D9939 /* KappaQuest */ = {
+			isa = PBXGroup;
+			children = (
+				8F30D4241C244913004D9939 /* AppDelegate.swift */,
+				8F30D4261C244913004D9939 /* FirstViewController.swift */,
+				8F30D4281C244913004D9939 /* SecondViewController.swift */,
+				8F30D42A1C244913004D9939 /* Main.storyboard */,
+				8F30D42D1C244913004D9939 /* Assets.xcassets */,
+				8F30D42F1C244913004D9939 /* LaunchScreen.storyboard */,
+				8F30D4321C244913004D9939 /* Info.plist */,
+			);
+			path = KappaQuest;
+			sourceTree = "<group>";
+		};
+		8F30D43A1C244913004D9939 /* KappaQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F30D43B1C244913004D9939 /* KappaQuestTests.swift */,
+				8F30D43D1C244913004D9939 /* Info.plist */,
+			);
+			path = KappaQuestTests;
+			sourceTree = "<group>";
+		};
+		8F30D4451C244913004D9939 /* KappaQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F30D4461C244913004D9939 /* KappaQuestUITests.swift */,
+				8F30D4481C244913004D9939 /* Info.plist */,
+			);
+			path = KappaQuestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F30D4201C244913004D9939 /* KappaQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F30D44B1C244913004D9939 /* Build configuration list for PBXNativeTarget "KappaQuest" */;
+			buildPhases = (
+				8F30D41D1C244913004D9939 /* Sources */,
+				8F30D41E1C244913004D9939 /* Frameworks */,
+				8F30D41F1C244913004D9939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KappaQuest;
+			productName = KappaQuest;
+			productReference = 8F30D4211C244913004D9939 /* KappaQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F30D4361C244913004D9939 /* KappaQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F30D44E1C244913004D9939 /* Build configuration list for PBXNativeTarget "KappaQuestTests" */;
+			buildPhases = (
+				8F30D4331C244913004D9939 /* Sources */,
+				8F30D4341C244913004D9939 /* Frameworks */,
+				8F30D4351C244913004D9939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F30D4391C244913004D9939 /* PBXTargetDependency */,
+			);
+			name = KappaQuestTests;
+			productName = KappaQuestTests;
+			productReference = 8F30D4371C244913004D9939 /* KappaQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F30D4411C244913004D9939 /* KappaQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F30D4511C244913004D9939 /* Build configuration list for PBXNativeTarget "KappaQuestUITests" */;
+			buildPhases = (
+				8F30D43E1C244913004D9939 /* Sources */,
+				8F30D43F1C244913004D9939 /* Frameworks */,
+				8F30D4401C244913004D9939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F30D4441C244913004D9939 /* PBXTargetDependency */,
+			);
+			name = KappaQuestUITests;
+			productName = KappaQuestUITests;
+			productReference = 8F30D4421C244913004D9939 /* KappaQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F30D4191C244913004D9939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ria10;
+				TargetAttributes = {
+					8F30D4201C244913004D9939 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8F30D4361C244913004D9939 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8F30D4201C244913004D9939;
+					};
+					8F30D4411C244913004D9939 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8F30D4201C244913004D9939;
+					};
+				};
+			};
+			buildConfigurationList = 8F30D41C1C244913004D9939 /* Build configuration list for PBXProject "KappaQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F30D4181C244913004D9939;
+			productRefGroup = 8F30D4221C244913004D9939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F30D4201C244913004D9939 /* KappaQuest */,
+				8F30D4361C244913004D9939 /* KappaQuestTests */,
+				8F30D4411C244913004D9939 /* KappaQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F30D41F1C244913004D9939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F30D4311C244913004D9939 /* LaunchScreen.storyboard in Resources */,
+				8F30D42E1C244913004D9939 /* Assets.xcassets in Resources */,
+				8F30D42C1C244913004D9939 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F30D4351C244913004D9939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F30D4401C244913004D9939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F30D41D1C244913004D9939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F30D4291C244913004D9939 /* SecondViewController.swift in Sources */,
+				8F30D4251C244913004D9939 /* AppDelegate.swift in Sources */,
+				8F30D4271C244913004D9939 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F30D4331C244913004D9939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F30D43C1C244913004D9939 /* KappaQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F30D43E1C244913004D9939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F30D4471C244913004D9939 /* KappaQuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F30D4391C244913004D9939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F30D4201C244913004D9939 /* KappaQuest */;
+			targetProxy = 8F30D4381C244913004D9939 /* PBXContainerItemProxy */;
+		};
+		8F30D4441C244913004D9939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F30D4201C244913004D9939 /* KappaQuest */;
+			targetProxy = 8F30D4431C244913004D9939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F30D42A1C244913004D9939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F30D42B1C244913004D9939 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F30D42F1C244913004D9939 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F30D4301C244913004D9939 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F30D4491C244913004D9939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F30D44A1C244913004D9939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F30D44C1C244913004D9939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KappaQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ria10.KappaQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F30D44D1C244913004D9939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KappaQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ria10.KappaQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F30D44F1C244913004D9939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KappaQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ria10.KappaQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KappaQuest.app/KappaQuest";
+			};
+			name = Debug;
+		};
+		8F30D4501C244913004D9939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KappaQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ria10.KappaQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KappaQuest.app/KappaQuest";
+			};
+			name = Release;
+		};
+		8F30D4521C244913004D9939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KappaQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ria10.KappaQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KappaQuest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8F30D4531C244913004D9939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KappaQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ria10.KappaQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KappaQuest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F30D41C1C244913004D9939 /* Build configuration list for PBXProject "KappaQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F30D4491C244913004D9939 /* Debug */,
+				8F30D44A1C244913004D9939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F30D44B1C244913004D9939 /* Build configuration list for PBXNativeTarget "KappaQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F30D44C1C244913004D9939 /* Debug */,
+				8F30D44D1C244913004D9939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F30D44E1C244913004D9939 /* Build configuration list for PBXNativeTarget "KappaQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F30D44F1C244913004D9939 /* Debug */,
+				8F30D4501C244913004D9939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F30D4511C244913004D9939 /* Build configuration list for PBXNativeTarget "KappaQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F30D4521C244913004D9939 /* Debug */,
+				8F30D4531C244913004D9939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F30D4191C244913004D9939 /* Project object */;
+}
