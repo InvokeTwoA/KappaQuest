@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1777A21C6922F9008089FE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1777971C6922F9008089FE /* FMDatabase.m */; };
+		8F1777A31C6922F9008089FE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1777991C6922F9008089FE /* FMDatabaseAdditions.m */; };
+		8F1777A41C6922F9008089FE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F17779B1C6922F9008089FE /* FMDatabasePool.m */; };
+		8F1777A51C6922F9008089FE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F17779D1C6922F9008089FE /* FMDatabaseQueue.m */; };
+		8F1777A61C6922F9008089FE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1777A01C6922F9008089FE /* FMResultSet.m */; };
+		8F1777A71C6922F9008089FE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F1777A11C6922F9008089FE /* Info.plist */; };
+		8F1777AA1C6924F3008089FE /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1777A91C6924F3008089FE /* BaseModel.swift */; };
+		8F1777AC1C69267A008089FE /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1777AB1C69267A008089FE /* StringExtensions.swift */; };
+		8F1777AE1C6926B2008089FE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1777AD1C6926B2008089FE /* libsqlite3.tbd */; };
+		8F2D1A401C7B5B9A00128DB1 /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D1A3F1C7B5B9A00128DB1 /* CommonUtil.swift */; };
 		8F30D4251C244913004D9939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D4241C244913004D9939 /* AppDelegate.swift */; };
-		8F30D4271C244913004D9939 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D4261C244913004D9939 /* FirstViewController.swift */; };
-		8F30D4291C244913004D9939 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D4281C244913004D9939 /* SecondViewController.swift */; };
+		8F30D4291C244913004D9939 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D4281C244913004D9939 /* BarViewController.swift */; };
 		8F30D42C1C244913004D9939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F30D42A1C244913004D9939 /* Main.storyboard */; };
 		8F30D42E1C244913004D9939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F30D42D1C244913004D9939 /* Assets.xcassets */; };
 		8F30D4311C244913004D9939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F30D42F1C244913004D9939 /* LaunchScreen.storyboard */; };
 		8F30D43C1C244913004D9939 /* KappaQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D43B1C244913004D9939 /* KappaQuestTests.swift */; };
 		8F30D4471C244913004D9939 /* KappaQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D4461C244913004D9939 /* KappaQuestUITests.swift */; };
+		8F30D4551C244DFB004D9939 /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D4541C244DFB004D9939 /* ItemManager.swift */; };
+		8F3A007A1C6B8DED00C36AA5 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A00791C6B8DED00C36AA5 /* CharacterCell.swift */; };
+		8F3A007C1C6BB0A200C36AA5 /* CharacterMakeJobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A007B1C6BB0A200C36AA5 /* CharacterMakeJobTableViewController.swift */; };
+		8F5B4B281C79A0F000DE554E /* PlayRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B4B271C79A0F000DE554E /* PlayRecordModel.swift */; };
+		8F5B4B2A1C79D25500DE554E /* FlagKeyValueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B4B291C79D25500DE554E /* FlagKeyValueModel.swift */; };
+		8F5B4B2C1C7A14A900DE554E /* PlayRecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B4B2B1C7A14A900DE554E /* PlayRecordTableViewController.swift */; };
+		8F6935471C74E9C5007875CF /* QuestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6935461C74E9C5007875CF /* QuestModel.swift */; };
+		8F6935491C74EC90007875CF /* DoorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6935481C74EC90007875CF /* DoorCell.swift */; };
+		8F6C86CF1C7391630094F3EC /* CharacterMakeNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C86CE1C7391630094F3EC /* CharacterMakeNameViewController.swift */; };
+		8F6C86D11C7397070094F3EC /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C86D01C7397070094F3EC /* TitleViewController.swift */; };
+		8F6C86D31C739A840094F3EC /* StoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C86D21C739A840094F3EC /* StoryTableViewController.swift */; };
+		8F6C86D51C739C610094F3EC /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C86D41C739C610094F3EC /* StoryDetailViewController.swift */; };
+		8F6C86D71C747E910094F3EC /* DungeonSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C86D61C747E910094F3EC /* DungeonSelectTableViewController.swift */; };
+		8F6C86D91C7480350094F3EC /* DungeonDetailTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C86D81C7480350094F3EC /* DungeonDetailTableView.swift */; };
+		8F77BD1A1C650D3E00FC204F /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F77BD191C650D3E00FC204F /* CharacterModel.swift */; };
+		8F7A0C6E1C2DC0D300EE91A9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7A0C6D1C2DC0D300EE91A9 /* BaseViewController.swift */; };
+		8F98834B1C7C7FCA00585FEC /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98834A1C7C7FCA00585FEC /* ActionViewController.swift */; };
+		8F98834D1C7C807800585FEC /* BattleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98834C1C7C807800585FEC /* BattleScene.swift */; };
+		8FA93F3E1C2DAB0700608317 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA93F3D1C2DAB0700608317 /* SettingsViewController.swift */; };
+		8FB073371C929B7A005D7692 /* spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FB073351C929B7A005D7692 /* spark.sks */; };
+		8FB073381C929B7A005D7692 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB073361C929B7A005D7692 /* spark.png */; };
+		8FCAB9961C74E2A300C4BEA0 /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB9951C74E2A300C4BEA0 /* QuestViewController.swift */; };
+		8FD96C681C6B581F003F3BA0 /* CharacterMakeGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD96C671C6B581F003F3BA0 /* CharacterMakeGender.swift */; };
+		8FEF3D691C87D3BB007B5231 /* CharacterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF3D681C87D3BB007B5231 /* CharacterNode.swift */; };
+		8FF4785A1C64BD7400238E40 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF478591C64BD7400238E40 /* CustomButton.swift */; };
+		8FF4785C1C64BF4100238E40 /* CharacterMakeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4785B1C64BF4100238E40 /* CharacterMakeTableViewController.swift */; };
+		8FF548CF1C32C420002E8DE1 /* StatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF548CE1C32C420002E8DE1 /* StatusTableViewController.swift */; };
+		8FF548D11C37276D002E8DE1 /* BattleTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF548D01C37276D002E8DE1 /* BattleTextCell.swift */; };
+		8FFEAB4A1C6DDCBE007226CF /* JobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFEAB491C6DDCBE007226CF /* JobModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +73,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F1777811C691EF4008089FE /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		8F1777961C6922F9008089FE /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		8F1777971C6922F9008089FE /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		8F1777981C6922F9008089FE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		8F1777991C6922F9008089FE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		8F17779A1C6922F9008089FE /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		8F17779B1C6922F9008089FE /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		8F17779C1C6922F9008089FE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		8F17779D1C6922F9008089FE /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		8F17779E1C6922F9008089FE /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		8F17779F1C6922F9008089FE /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		8F1777A01C6922F9008089FE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		8F1777A11C6922F9008089FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1777A91C6924F3008089FE /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		8F1777AB1C69267A008089FE /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		8F1777AD1C6926B2008089FE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8F2D1A3F1C7B5B9A00128DB1 /* CommonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
 		8F30D4211C244913004D9939 /* KappaQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KappaQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F30D4241C244913004D9939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F30D4261C244913004D9939 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8F30D4281C244913004D9939 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8F30D4281C244913004D9939 /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
 		8F30D42B1C244913004D9939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F30D42D1C244913004D9939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F30D4301C244913004D9939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +103,35 @@
 		8F30D4421C244913004D9939 /* KappaQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KappaQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F30D4461C244913004D9939 /* KappaQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KappaQuestUITests.swift; sourceTree = "<group>"; };
 		8F30D4481C244913004D9939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F30D4541C244DFB004D9939 /* ItemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
+		8F3A00791C6B8DED00C36AA5 /* CharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		8F3A007B1C6BB0A200C36AA5 /* CharacterMakeJobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterMakeJobTableViewController.swift; sourceTree = "<group>"; };
+		8F5B4B271C79A0F000DE554E /* PlayRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayRecordModel.swift; sourceTree = "<group>"; };
+		8F5B4B291C79D25500DE554E /* FlagKeyValueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagKeyValueModel.swift; sourceTree = "<group>"; };
+		8F5B4B2B1C7A14A900DE554E /* PlayRecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayRecordTableViewController.swift; sourceTree = "<group>"; };
+		8F6935461C74E9C5007875CF /* QuestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestModel.swift; sourceTree = "<group>"; };
+		8F6935481C74EC90007875CF /* DoorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoorCell.swift; sourceTree = "<group>"; };
+		8F6C86CE1C7391630094F3EC /* CharacterMakeNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterMakeNameViewController.swift; sourceTree = "<group>"; };
+		8F6C86D01C7397070094F3EC /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		8F6C86D21C739A840094F3EC /* StoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTableViewController.swift; sourceTree = "<group>"; };
+		8F6C86D41C739C610094F3EC /* StoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
+		8F6C86D61C747E910094F3EC /* DungeonSelectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonSelectTableViewController.swift; sourceTree = "<group>"; };
+		8F6C86D81C7480350094F3EC /* DungeonDetailTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonDetailTableView.swift; sourceTree = "<group>"; };
+		8F77BD191C650D3E00FC204F /* CharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		8F7A0C6D1C2DC0D300EE91A9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8F98834A1C7C7FCA00585FEC /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		8F98834C1C7C807800585FEC /* BattleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleScene.swift; sourceTree = "<group>"; };
+		8FA93F3D1C2DAB0700608317 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8FB073351C929B7A005D7692 /* spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spark.sks; sourceTree = "<group>"; };
+		8FB073361C929B7A005D7692 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		8FCAB9951C74E2A300C4BEA0 /* QuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestViewController.swift; sourceTree = "<group>"; };
+		8FD96C671C6B581F003F3BA0 /* CharacterMakeGender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterMakeGender.swift; sourceTree = "<group>"; };
+		8FEF3D681C87D3BB007B5231 /* CharacterNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterNode.swift; sourceTree = "<group>"; };
+		8FF478591C64BD7400238E40 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8FF4785B1C64BF4100238E40 /* CharacterMakeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterMakeTableViewController.swift; sourceTree = "<group>"; };
+		8FF548CE1C32C420002E8DE1 /* StatusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusTableViewController.swift; sourceTree = "<group>"; };
+		8FF548D01C37276D002E8DE1 /* BattleTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleTextCell.swift; sourceTree = "<group>"; };
+		8FFEAB491C6DDCBE007226CF /* JobModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1777AE1C6926B2008089FE /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +160,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F1777951C6922F9008089FE /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				8F1777961C6922F9008089FE /* FMDatabase.h */,
+				8F1777971C6922F9008089FE /* FMDatabase.m */,
+				8F1777981C6922F9008089FE /* FMDatabaseAdditions.h */,
+				8F1777991C6922F9008089FE /* FMDatabaseAdditions.m */,
+				8F17779A1C6922F9008089FE /* FMDatabasePool.h */,
+				8F17779B1C6922F9008089FE /* FMDatabasePool.m */,
+				8F17779C1C6922F9008089FE /* FMDatabaseQueue.h */,
+				8F17779D1C6922F9008089FE /* FMDatabaseQueue.m */,
+				8F17779E1C6922F9008089FE /* FMDB.h */,
+				8F17779F1C6922F9008089FE /* FMResultSet.h */,
+				8F1777A01C6922F9008089FE /* FMResultSet.m */,
+				8F1777A11C6922F9008089FE /* Info.plist */,
+			);
+			name = fmdb;
+			path = KappaQuest/fmdb;
+			sourceTree = "<group>";
+		};
+		8F1777A81C6924CF008089FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F1777A91C6924F3008089FE /* BaseModel.swift */,
+				8F30D4541C244DFB004D9939 /* ItemManager.swift */,
+				8F77BD191C650D3E00FC204F /* CharacterModel.swift */,
+				8F6935461C74E9C5007875CF /* QuestModel.swift */,
+				8F5B4B271C79A0F000DE554E /* PlayRecordModel.swift */,
+				8F5B4B291C79D25500DE554E /* FlagKeyValueModel.swift */,
+				8FFEAB491C6DDCBE007226CF /* JobModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8F1777AF1C6B2B3D008089FE /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				8F1777AB1C69267A008089FE /* StringExtensions.swift */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		8F1777B01C6B2B76008089FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F7A0C6D1C2DC0D300EE91A9 /* BaseViewController.swift */,
+				8F98834A1C7C7FCA00585FEC /* ActionViewController.swift */,
+				8F6C86D01C7397070094F3EC /* TitleViewController.swift */,
+				8F6C86D61C747E910094F3EC /* DungeonSelectTableViewController.swift */,
+				8F6C86D81C7480350094F3EC /* DungeonDetailTableView.swift */,
+				8FCAB9951C74E2A300C4BEA0 /* QuestViewController.swift */,
+				8F6C86D21C739A840094F3EC /* StoryTableViewController.swift */,
+				8F6C86D41C739C610094F3EC /* StoryDetailViewController.swift */,
+				8F5B4B2B1C7A14A900DE554E /* PlayRecordTableViewController.swift */,
+				8F30D4281C244913004D9939 /* BarViewController.swift */,
+				8FF548CE1C32C420002E8DE1 /* StatusTableViewController.swift */,
+				8FD96C661C6B57E2003F3BA0 /* characterMake */,
+				8FA93F3D1C2DAB0700608317 /* SettingsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8F2D1A411C7B5B9F00128DB1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8F2D1A3F1C7B5B9A00128DB1 /* CommonUtil.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		8F30D4181C244913004D9939 = {
 			isa = PBXGroup;
 			children = (
+				8F1777AD1C6926B2008089FE /* libsqlite3.tbd */,
+				8F1777951C6922F9008089FE /* fmdb */,
+				8F1777811C691EF4008089FE /* Bridging-Header.h */,
 				8F30D4231C244913004D9939 /* KappaQuest */,
 				8F30D43A1C244913004D9939 /* KappaQuestTests */,
 				8F30D4451C244913004D9939 /* KappaQuestUITests */,
@@ -99,9 +256,15 @@
 		8F30D4231C244913004D9939 /* KappaQuest */ = {
 			isa = PBXGroup;
 			children = (
+				8F1777AF1C6B2B3D008089FE /* extension */,
+				8F77BD181C6501C500FC204F /* customUI */,
 				8F30D4241C244913004D9939 /* AppDelegate.swift */,
-				8F30D4261C244913004D9939 /* FirstViewController.swift */,
-				8F30D4281C244913004D9939 /* SecondViewController.swift */,
+				8FB073341C929B58005D7692 /* sks */,
+				8FEF3D6A1C87D3C9007B5231 /* Node */,
+				8F98834E1C7C870500585FEC /* Scene */,
+				8F2D1A411C7B5B9F00128DB1 /* Common */,
+				8F1777B01C6B2B76008089FE /* Controller */,
+				8F1777A81C6924CF008089FE /* Model */,
 				8F30D42A1C244913004D9939 /* Main.storyboard */,
 				8F30D42D1C244913004D9939 /* Assets.xcassets */,
 				8F30D42F1C244913004D9939 /* LaunchScreen.storyboard */,
@@ -126,6 +289,53 @@
 				8F30D4481C244913004D9939 /* Info.plist */,
 			);
 			path = KappaQuestUITests;
+			sourceTree = "<group>";
+		};
+		8F77BD181C6501C500FC204F /* customUI */ = {
+			isa = PBXGroup;
+			children = (
+				8FF478591C64BD7400238E40 /* CustomButton.swift */,
+				8FF548D01C37276D002E8DE1 /* BattleTextCell.swift */,
+				8F3A00791C6B8DED00C36AA5 /* CharacterCell.swift */,
+				8F6935481C74EC90007875CF /* DoorCell.swift */,
+			);
+			name = customUI;
+			sourceTree = "<group>";
+		};
+		8F98834E1C7C870500585FEC /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				8F98834C1C7C807800585FEC /* BattleScene.swift */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		8FB073341C929B58005D7692 /* sks */ = {
+			isa = PBXGroup;
+			children = (
+				8FB073351C929B7A005D7692 /* spark.sks */,
+				8FB073361C929B7A005D7692 /* spark.png */,
+			);
+			name = sks;
+			sourceTree = "<group>";
+		};
+		8FD96C661C6B57E2003F3BA0 /* characterMake */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4785B1C64BF4100238E40 /* CharacterMakeTableViewController.swift */,
+				8FD96C671C6B581F003F3BA0 /* CharacterMakeGender.swift */,
+				8F3A007B1C6BB0A200C36AA5 /* CharacterMakeJobTableViewController.swift */,
+				8F6C86CE1C7391630094F3EC /* CharacterMakeNameViewController.swift */,
+			);
+			name = characterMake;
+			sourceTree = "<group>";
+		};
+		8FEF3D6A1C87D3C9007B5231 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				8FEF3D681C87D3BB007B5231 /* CharacterNode.swift */,
+			);
+			name = Node;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +442,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1777A71C6922F9008089FE /* Info.plist in Resources */,
+				8FB073381C929B7A005D7692 /* spark.png in Resources */,
 				8F30D4311C244913004D9939 /* LaunchScreen.storyboard in Resources */,
 				8F30D42E1C244913004D9939 /* Assets.xcassets in Resources */,
 				8F30D42C1C244913004D9939 /* Main.storyboard in Resources */,
+				8FB073371C929B7A005D7692 /* spark.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +472,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F30D4291C244913004D9939 /* SecondViewController.swift in Sources */,
+				8FF548D11C37276D002E8DE1 /* BattleTextCell.swift in Sources */,
+				8FCAB9961C74E2A300C4BEA0 /* QuestViewController.swift in Sources */,
+				8F30D4291C244913004D9939 /* BarViewController.swift in Sources */,
+				8FF4785A1C64BD7400238E40 /* CustomButton.swift in Sources */,
+				8F1777A21C6922F9008089FE /* FMDatabase.m in Sources */,
+				8F3A007C1C6BB0A200C36AA5 /* CharacterMakeJobTableViewController.swift in Sources */,
+				8F6C86D31C739A840094F3EC /* StoryTableViewController.swift in Sources */,
+				8F6C86D11C7397070094F3EC /* TitleViewController.swift in Sources */,
+				8F77BD1A1C650D3E00FC204F /* CharacterModel.swift in Sources */,
+				8F1777A51C6922F9008089FE /* FMDatabaseQueue.m in Sources */,
+				8F1777A61C6922F9008089FE /* FMResultSet.m in Sources */,
+				8FA93F3E1C2DAB0700608317 /* SettingsViewController.swift in Sources */,
+				8FF4785C1C64BF4100238E40 /* CharacterMakeTableViewController.swift in Sources */,
+				8F2D1A401C7B5B9A00128DB1 /* CommonUtil.swift in Sources */,
+				8F98834B1C7C7FCA00585FEC /* ActionViewController.swift in Sources */,
+				8FEF3D691C87D3BB007B5231 /* CharacterNode.swift in Sources */,
+				8F5B4B2C1C7A14A900DE554E /* PlayRecordTableViewController.swift in Sources */,
+				8FD96C681C6B581F003F3BA0 /* CharacterMakeGender.swift in Sources */,
+				8F6935471C74E9C5007875CF /* QuestModel.swift in Sources */,
+				8F6935491C74EC90007875CF /* DoorCell.swift in Sources */,
+				8F6C86D51C739C610094F3EC /* StoryDetailViewController.swift in Sources */,
 				8F30D4251C244913004D9939 /* AppDelegate.swift in Sources */,
-				8F30D4271C244913004D9939 /* FirstViewController.swift in Sources */,
+				8F1777A31C6922F9008089FE /* FMDatabaseAdditions.m in Sources */,
+				8F1777AA1C6924F3008089FE /* BaseModel.swift in Sources */,
+				8F6C86D71C747E910094F3EC /* DungeonSelectTableViewController.swift in Sources */,
+				8F1777AC1C69267A008089FE /* StringExtensions.swift in Sources */,
+				8F5B4B281C79A0F000DE554E /* PlayRecordModel.swift in Sources */,
+				8FF548CF1C32C420002E8DE1 /* StatusTableViewController.swift in Sources */,
+				8F3A007A1C6B8DED00C36AA5 /* CharacterCell.swift in Sources */,
+				8F6C86D91C7480350094F3EC /* DungeonDetailTableView.swift in Sources */,
+				8FFEAB4A1C6DDCBE007226CF /* JobModel.swift in Sources */,
+				8F5B4B2A1C79D25500DE554E /* FlagKeyValueModel.swift in Sources */,
+				8F98834D1C7C807800585FEC /* BattleScene.swift in Sources */,
+				8F6C86CF1C7391630094F3EC /* CharacterMakeNameViewController.swift in Sources */,
+				8F30D4551C244DFB004D9939 /* ItemManager.swift in Sources */,
+				8F1777A41C6922F9008089FE /* FMDatabasePool.m in Sources */,
+				8F7A0C6E1C2DC0D300EE91A9 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +654,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ria10.KappaQuest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -418,6 +666,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ria10.KappaQuest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +737,7 @@
 				8F30D44D1C244913004D9939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F30D44E1C244913004D9939 /* Build configuration list for PBXNativeTarget "KappaQuestTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +746,7 @@
 				8F30D4501C244913004D9939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F30D4511C244913004D9939 /* Build configuration list for PBXNativeTarget "KappaQuestUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +755,7 @@
 				8F30D4531C244913004D9939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
